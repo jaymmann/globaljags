@@ -13,7 +13,7 @@ gcloud functions deploy generate_thumbnails \
 --runtime nodejs18 \
 --trigger-event google.storage.object.finalize \
 --entry-point generateThumbnails \
---trigger-resource sp24-elliott-globaljags-uploads
+--trigger-resource sp24-41200-jaymmann-gj-uploads
 ```
 
 ## Trigger the Cloud Function
